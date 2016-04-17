@@ -17,17 +17,16 @@ Pod::Spec.new do |s|
 
   s.name         = "MTDMarco"
   s.version      = "0.0.1"
-  s.summary      = "A short description of MTDMarco."
+  s.summary      = "iOS Macro for MTD from 4399 Network Inc."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+  s.description  = iOS Macro for MTD from 4399 Network Inc.
 
-  s.homepage     = "http://EXAMPLE/MTDMarco"
+  s.homepage     = "https://github.com/fmricky/MTDMarco"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +37,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -52,10 +51,10 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "郑旭" => "zhengxu@4399inc.com" }
-  # Or just: s.author    = "郑旭"
+  s.author             = { "fmricky" => "wwfy@foxmail.com" }
+  # Or just: s.author    = "fmricky"
   # s.authors            = { "郑旭" => "zhengxu@4399inc.com" }
-  # s.social_media_url   = "http://twitter.com/郑旭"
+   s.social_media_url   = "http://twitter.com/fmricky"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -64,7 +63,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  # s.platform     = :ios, "7.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -79,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/MTDMarco.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/fmricky/MTDMarco.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,10 +89,11 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "Classes/MTDMacro.h"
+  #s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  #s.exclude_files = "Classes/Exclude"
 
-  # s.public_header_files = "Classes/**/*.h"
+  s.public_header_files = "Classes/MTDMacro.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
